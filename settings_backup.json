@@ -1,0 +1,116 @@
+{
+  "bottom_dock_layout": "contained",
+  "close_panel_on_toggle": false,
+  "zoomed_padding": true,
+  "active_pane_modifiers": {
+    "border_size": 0.0,
+    "inactive_opacity": 0.75
+  },
+  "status_bar": {
+    "cursor_position_button": true,
+    "active_encoding_button": "non_utf8",
+    "active_language_button": true
+  },
+  "preview_tabs": {
+    "enable_preview_from_project_panel": true,
+    "enabled": true
+  },
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
+    "show_tab_bar_buttons": true,
+    "show_nav_history_buttons": true,
+    "show": true
+  },
+  "title_bar": {
+    "open_menus_on_hover": false,
+    "show_menus": false,
+    "show_user_menu": true,
+    "show_sign_in": true,
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_worktree_name": true,
+    "show_branch_name": true
+  },
+  "fullscreen_mode": "native",
+  "window_title_format": "${projectName}${separator}${fileName}",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "base_keymap": "VSCode",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "vim_mode": true,
+  "vim": {
+    "toggle_relative_line_numbers": true,
+    "use_system_clipboard": "always",
+    "use_multicursor": true
+  },
+  "relative_line_numbers": true,
+  "cursor_shape": "bar",
+  "cursor_blink": true,
+  "vertical_scroll_margin": 4,
+  "scroll_beyond_last_line": "off",
+  "buffer_font_family": "BlexMono Nerd Font",
+  "buffer_font_size": 14,
+  "buffer_font_weight": 500,
+  "buffer_line_height": "comfortable",
+  "ui_font_family": "BlexMono Nerd Font",
+  "ui_font_size": 15,
+  "terminal": {
+    "shell": {
+      "program": "powershell.exe"
+    },
+    "font_family": "BlexMono Nerd Font",
+    "font_size": 13.5,
+    "line_height": "comfortable",
+    "dock": "bottom"
+  },
+  "project_panel": {
+    "button": true,
+    "dock": "left",
+    "default_width": 280,
+    "auto_reveal_entries": false
+  },
+  "tabs": {
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true
+  },
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark"
+  },
+  "search": {
+    "center_on_match": true
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/node_modules",
+    "**/dist",
+    "**/build",
+    "**/target",
+    "**/*.min.js",
+    "**/*.lock",
+    "**/managed_components",
+    "**/.pio",
+    "**/.vscode",
+    "**/.cache",
+    "**/graphify-out",
+    "**/compile_commands.json",
+    "**/sdkconfig.*",
+    "**/documents"
+  ]
+}
